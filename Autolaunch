@@ -1,0 +1,8 @@
+This will launch the game for me automatically when I run the script the filepath is specific to my machine, but can be modified for others.
+
+It does launch it the game will close then reopen it and load all the way through havent figured out why it does this but it still works
+put in a sleep timer so that it doesnt give the can not find Brawlhalla error when the script is looking for brawlhalla window.
+hopefully you can get it to a point where it autofills the directory
+SetWorkingDir, F:\SteamLibrary\steamapps\common\Brawlhalla
+Run, Brawlhalla
+Sleep,15000
